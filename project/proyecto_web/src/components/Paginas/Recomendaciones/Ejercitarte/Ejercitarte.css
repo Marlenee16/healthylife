@@ -1,0 +1,48 @@
+
+
+.imageejer {
+    width: 100%;
+
+}
+
+
+.cuerpo {
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    width: 55%;
+    margin-left: 10%;
+    padding:2rem 3rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+
+}
+
+.p1{
+    font-size: 25px;
+    width: 60%;
+    align-content: center;
+    margin-left: 20%;
+    padding:2rem 3rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    display: flex;
+}
+
+.m{
+    width: 55%;
+    align-items: center;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+.cuerpo img{
+    height: 200px;
+    box-shadow:antiquewhite
+
+}
+

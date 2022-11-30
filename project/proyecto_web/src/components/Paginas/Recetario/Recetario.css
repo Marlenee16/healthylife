@@ -1,0 +1,286 @@
+.formulariodebarra{
+    position: relative;
+    left: 700px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.michael{
+   
+   width: 100px;
+   height: 40px;
+   border-radius: 15px;
+   text-decoration: none;
+   background-color: bisque;
+   font-size:30px;
+
+}
+.dolocrim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: #069;
+    padding: 1rem;
+    height: 90px;
+    border-radius: 30px;
+    color: black;
+    
+
+}
+.buscar_texto{
+    border: none;
+    background: none;
+    outline: none;
+    color:white;
+    float: left;
+    line-height: 68px;
+    transition: .4s;
+    width: 0;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width:480px){
+    .dolocrim:hover >  .buscar_texto{
+        width: 300px;
+    }
+}
+
+@media screen and (min-width:720px){
+    .dolocrim:hover >  .buscar_texto{
+        width: 300px;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .dolocrim:hover >  .buscar_texto{
+        width: 300px;
+    }
+}
+    
+.reset{
+    position: relative;
+    left: 40%;
+    top:0%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+}
+
+.Recetas_container{
+
+    border-radius: 10px;
+    background-color:whitesmoke;
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow:wrap;
+}
+.box{
+    width: 180px;
+    height: 60px;
+   font-size: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: cadetblue;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 40px;
+
+}
+
+
+.Punk{
+    width: 40px;
+    height: 20px;
+    position: relative;
+    top: 40px;
+    right: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: wheat;
+
+}
+
+
+.Icon_Receta{
+width: 70px;
+top: 130px;
+left: 900px;
+position: absolute;
+
+}
+.Justin{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: black;
+    
+}
+.Recetas_container_sub{
+
+    border-radius: 10px;
+    background-color:whitesmoke;
+    width: 100%;
+    height: auto;
+    display: none;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow:wrap;
+}
+
+.reset{
+    width: 40%;
+}
+
+
+@media screen and (min-width:960px) and (max-width:1199px){
+
+  
+}
+
+@media screen and (min-width:768px) and (max-width:959px){
+
+  
+}
+
+@media screen and (min-width:480px) and (max-width:767px){
+
+  
+}
+@media screen and (min-width:200px) and (max-width:479px){
+    .formulariodebarra{
+        position: absolute;
+        left: 200px;
+        height: 170px;
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    .dolocrim:hover >  .buscar_texto{
+        width: 300px;
+    }
+    
+    .michael{
+       
+       width: 300px;
+       height: 40px;
+       border-radius: 15px;
+       text-decoration: none;
+       background-color: bisque;
+       font-size:10px;
+    
+    }
+    .dolocrim{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 30%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        background: #069;
+        padding: 1rem;
+        height: 50px;
+        border-radius: 30px;
+        color: black;
+        width: 200px;
+  
+        
+    
+    }
+    .buscar_texto{
+        border: none;
+        background: none;
+        outline: none;
+        color:white;
+        float: left;
+        line-height: 90px;
+        transition: .4s;
+        width: 150px;
+    }
+  
+    .reset{
+        position: relative;
+        left: 20%;
+        top:0%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 25px;
+    }
+    
+    .Recetas_container{
+        margin-top: 30%;
+        border-radius: 10px;
+        background-color:whitesmoke;
+        width: 100%;
+        height: 30rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow:wrap;
+    }
+    .box{
+        width: 180px;
+        height: 60px;
+       font-size: 30px;
+        cursor: pointer;
+        border-radius: 5px;
+        background: cadetblue;
+        margin: 20px;
+        box-sizing: border-box;
+        font-size: 40px;
+    
+    }
+
+    
+    
+    .Punk{
+        width: 900px;
+        height: 30px;
+        position:relative;
+        top: 0px;
+        right: 0px;
+        border-radius: 10px;
+        background-color: wheat;
+    
+    }
+    
+    
+    .Icon_Receta{
+    width: 70px;
+    top: 130px;
+    left:300px;
+    position: absolute;
+    
+    }
+    .Justin{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        color: black;
+        
+    }
+    .Recetas_container_sub{
+        
+        border-radius: 10px;
+        background-color:whitesmoke;
+        width: 100%;
+        height: auto;
+        display: none;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow:wrap;
+    }
+    
+    .reset{
+        width: 60%;
+    }
+}
